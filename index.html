@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HomePage</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20240121215332" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="" data-goto=".main-section" class="header__logo"
+            ><img src="img/logo1.svg" alt="Logo"
+          /></a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a data-goto=".services" href="#" class="menu__link"
+                    >Services</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a data-goto=".portfolio" href="#" class="menu__link"
+                    >Portfolios</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a data-goto=".skills" href="#" class="menu__link"
+                    >Experience</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__actions">
+            <a href="" data-goto=".contacts" class="header__button"
+              >Contact me</a
+            >
+            <button type="button" class="icon-menu"><span></span></button>
+          </div>
+        </div>
+      </header>
+
+      <main data-fp class="page">
+        <section data-fp-section class="page__main main-section">
+          <div class="main-section__container">
+            <div class="main-section__content">
+              <div class="main-section__title title">
+                <div class="title__label">MY NAME IS</div>
+                <h1 class="title__value title__value_big">
+                  Illia <span>Dubrovin</span>
+                </h1>
+              </div>
+              <div class="main-section__text text">
+                I'm a newcomer to frontend development with basic skills in
+                HTML, CSS, and JavaScript. My goal is to create attractive and
+                user-friendly websites. I'm eager to learn and collaborate for
+                better outcomes.
+              </div>
+              <div class="main-section__social social">
+                <a
+                  href="https://www.instagram.com/_illia.dubrovin_36_/"
+                  class="social__link _icon-s-instagram"
+                ></a>
+                <a
+                  href="https://github.com/illiaDubr"
+                  class="social__link _icon-s-git"
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/илья-дубровин-a9492b239/"
+                  class="social__link _icon-s-lincedin"
+                ></a>
+              </div>
+            </div>
+            <div class="main-section__decor decor-main-section">
+              <div class="decor-main-section__image">
+                <picture
+                  ><source srcset="img/main/picture2.webp" type="image/webp" />
+                  <img
+                    class="decor-main-section__picture"
+                    src="img/main/picture2.png"
+                    alt="picture"
+                /></picture>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          data-fp-section
+          data-watch="navigator"
+          class="page__services services"
+        >
+          <div class="services__container">
+            <div class="services__title title">
+              <div class="title__label">SERVICES</div>
+              <h2 class="title__value">Specialized in</h2>
+            </div>
+
+            <div class="services__items">
+              <article class="services__item item-service">
+                <div class="item-service__icon">
+                  <img src="img/services/icons/01.svg" alt="icon" />
+                </div>
+                <h4 class="item-service__title">Adaptive layout</h4>
+                <div class="item-service__text">
+                  I create sleek responsive layouts for optimal viewing on all
+                  devices. Utilizing HTML5, CSS3, and media queries to ensure a
+                  seamless experience across various screens.
+                </div>
+              </article>
+              <article class="services__item item-service">
+                <div class="item-service__icon">
+                  <img src="img/services/icons/01.svg" alt="icon" />
+                </div>
+                <h4 class="item-service__title">Web Development</h4>
+                <div class="item-service__text">
+                  Create and maintain your websites and also take care of its
+                  performance and traffic capacity.
+                </div>
+              </article>
+              <article class="services__item item-service">
+                <div class="item-service__icon">
+                  <img src="img/services/icons/01.svg" alt="icon" />
+                </div>
+                <h4 class="item-service__title">Individuality</h4>
+                <div class="item-service__text">
+                  I develop individually according to your wishes.
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section
+          data-fp-section
+          data-watch="navigator"
+          class="page__portfolio portfolio"
+        >
+          <div class="portfolio__container">
+            <div class="portfolio__header">
+              <div class="portfolio__title title">
+                <div class="title__label">MY WORKS</div>
+                <h2 class="title__value">Featured Portfolios</h2>
+              </div>
+              <div class="portfolio__controls">
+                <button
+                  type="button"
+                  class="portfolio__arrow portfolio__arrow-left _icon-arrow"
+                ></button>
+                <button
+                  type="button"
+                  class="portfolio__arrow portfolio__arrow-right _icon-arrow"
+                ></button>
+              </div>
+            </div>
+            <div class="portfolio__slider swiper">
+              <div class="portfolio__wrapper swiper-wrapper">
+                <div class="portfolio__slide swiper-slide">
+                  <article class="item-portfolio">
+                    <a href="" class="item-portfolio__image-ibg">
+                      <picture
+                        ><source
+                          srcset="img/portfolio/01.webp"
+                          type="image/webp" />
+                        <img src="img/portfolio/01.jpg" alt="Agency Website"
+                      /></picture>
+                    </a>
+                    <div class="item-portfolio__body">
+                      <h4 class="item-portfolio__title">
+                        <a href="" class="item-portfolio__link-title">
+                          My Website.
+                        </a>
+                      </h4>
+                      <div class="item-portfolio__footer">
+                        <a
+                          href=""
+                          class="item-portfolio__category category-link"
+                          >Basic</a
+                        >
+                        <a href="" class="item-portfolio__link _icon-lonk"></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="portfolio__slide swiper-slide">
+                  <article class="item-portfolio">
+                    <a href="" class="item-portfolio__image-ibg">
+                      <picture
+                        ><source
+                          srcset="img/portfolio/02.webp"
+                          type="image/webp" />
+                        <img src="img/portfolio/02.jpg" alt="Agency Website"
+                      /></picture>
+                    </a>
+                    <div class="item-portfolio__body">
+                      <h4 class="item-portfolio__title">
+                        <a href="" class="item-portfolio__link-title">
+                          Future project
+                        </a>
+                      </h4>
+                      <div class="item-portfolio__footer">
+                        <a
+                          href=""
+                          class="item-portfolio__category category-link"
+                          >React</a
+                        >
+                        <a href="" class="item-portfolio__link _icon-lonk"></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="portfolio__slide swiper-slide">
+                  <article class="item-portfolio">
+                    <a href="" class="item-portfolio__image-ibg">
+                      <picture
+                        ><source
+                          srcset="img/portfolio/02.webp"
+                          type="image/webp" />
+                        <img src="img/portfolio/02.jpg" alt="Agency Website"
+                      /></picture>
+                    </a>
+                    <div class="item-portfolio__body">
+                      <h4 class="item-portfolio__title">
+                        <a href="" class="item-portfolio__link-title"
+                          >Future project</a
+                        >
+                      </h4>
+                      <div class="item-portfolio__footer">
+                        <a
+                          href=""
+                          class="item-portfolio__category category-link"
+                          >Future</a
+                        >
+                        <a href="" class="item-portfolio__link _icon-lonk"></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="portfolio__slide swiper-slide">
+                  <article class="item-portfolio">
+                    <a href="" class="item-portfolio__image-ibg">
+                      <picture
+                        ><source
+                          srcset="img/portfolio/02.webp"
+                          type="image/webp" />
+                        <img src="img/portfolio/02.jpg" alt="Agency Website"
+                      /></picture>
+                    </a>
+                    <div class="item-portfolio__body">
+                      <h4 class="item-portfolio__title">
+                        <a href="" class="item-portfolio__link-title"
+                          >Future project</a
+                        >
+                      </h4>
+                      <div class="item-portfolio__footer">
+                        <a
+                          href=""
+                          class="item-portfolio__category category-link"
+                          >Future</a
+                        >
+                        <a href="" class="item-portfolio__link _icon-lonk"></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="portfolio__slide swiper-slide">
+                  <article class="item-portfolio">
+                    <a href="" class="item-portfolio__image-ibg">
+                      <picture
+                        ><source
+                          srcset="img/portfolio/02.webp"
+                          type="image/webp" />
+                        <img src="img/portfolio/02.jpg" alt="Agency Website"
+                      /></picture>
+                    </a>
+                    <div class="item-portfolio__body">
+                      <h4 class="item-portfolio__title">
+                        <a href="" class="item-portfolio__link-title"
+                          >Future project</a
+                        >
+                      </h4>
+                      <div class="item-portfolio__footer">
+                        <a
+                          href=""
+                          class="item-portfolio__category category-link"
+                          >Future</a
+                        >
+                        <a href="" class="item-portfolio__link _icon-link"></a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section data-fp-section class="page__career career">
+          <div data-tabs="768" class="career__container">
+            <div class="career__body">
+              <div class="career__title title">
+                <div class="title__label">career path</div>
+                <h2 class="title__value">Work Experices</h2>
+              </div>
+              <nav
+                data-tabs-titles
+                class="career__navigation navigation-career"
+              >
+                <button
+                  type="button"
+                  class="navigation-career__title _tab-active"
+                >
+                  Apple
+                </button>
+                <button type="button" class="navigation-career__title">
+                  Microsoft
+                </button>
+                <button type="button" class="navigation-career__title">
+                  Facebook
+                </button>
+                <button type="button" class="navigation-career__title">
+                  Slack
+                </button>
+              </nav>
+              <div data-tabs-body class="career__content content-career">
+                <div class="content-career__body">
+                  <div class="content-career__header">
+                    <div class="content-career__title">
+                      Front-end Developer
+                      <a href="" class="content-career__link-title"
+                        >Apple .Inc</a
+                      >
+                    </div>
+                    <div class="content-career__location">
+                      California, United States
+                    </div>
+                    <div class="content-career__time">
+                      Nov 2020 - Present · Full-time
+                    </div>
+                    <div class="content-career__categories">
+                      <a href="" class="category-link">Swift</a>
+                      <a href="" class="category-link">Go</a>
+                    </div>
+                  </div>
+                  <div class="content-career__main">
+                    <ul class="content-career__list list-content-career">
+                      <li class="list-content-career__item">
+                        Improving overall website performance for mobile users.
+                      </li>
+                      <li class="list-content-career__item">
+                        Collaborate with back-end developers and web designers
+                        to improve usability
+                      </li>
+                      <li class="list-content-career__item">
+                        Add voice search feature for mobile app.
+                      </li>
+                      <li class="list-content-career__item">
+                        Developing an admin panel to manage contents, users,
+                        products and ...
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="content-career__body">
+                  <div class="content-career__header">
+                    <div class="content-career__title">
+                      Front-end Developer
+                      <a href="" class="content-career__link-title"
+                        >Microsoft .Inc</a
+                      >
+                    </div>
+                    <div class="content-career__location">
+                      California, United States
+                    </div>
+                    <div class="content-career__time">
+                      Nov 2020 - Present · Full-time
+                    </div>
+                    <div class="content-career__categories">
+                      <a href="" class="category-link">Swift</a>
+                      <a href="" class="category-link">Go</a>
+                    </div>
+                  </div>
+                  <div class="content-career__main">
+                    <ul class="content-career__list list-content-career">
+                      <li class="list-content-career__item">
+                        Improving overall website performance for mobile users.
+                      </li>
+                      <li class="list-content-career__item">
+                        Collaborate with back-end developers and web designers
+                        to improve usability
+                      </li>
+                      <li class="list-content-career__item">
+                        Add voice search feature for mobile app.
+                      </li>
+                      <li class="list-content-career__item">
+                        Developing an admin panel to manage contents, users,
+                        products and ...
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="content-career__body">
+                  <div class="content-career__header">
+                    <div class="content-career__title">
+                      Front-end Developer
+                      <a href="" class="content-career__link-title"
+                        >Facebook .Inc</a
+                      >
+                    </div>
+                    <div class="content-career__location">
+                      California, United States
+                    </div>
+                    <div class="content-career__time">
+                      Nov 2020 - Present · Full-time
+                    </div>
+                    <div class="content-career__categories">
+                      <a href="" class="category-link">Swift</a>
+                      <a href="" class="category-link">Go</a>
+                    </div>
+                  </div>
+                  <div class="content-career__main">
+                    <ul class="content-career__list list-content-career">
+                      <li class="list-content-career__item">
+                        Improving overall website performance for mobile users.
+                      </li>
+                      <li class="list-content-career__item">
+                        Collaborate with back-end developers and web designers
+                        to improve usability
+                      </li>
+                      <li class="list-content-career__item">
+                        Add voice search feature for mobile app.
+                      </li>
+                      <li class="list-content-career__item">
+                        Developing an admin panel to manage contents, users,
+                        products and ...
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="content-career__body">
+                  <div class="content-career__header">
+                    <div class="content-career__title">
+                      Front-end Developer
+                      <a href="" class="content-career__link-title"
+                        >Slack .Inc</a
+                      >
+                    </div>
+                    <div class="content-career__location">
+                      California, United States
+                    </div>
+                    <div class="content-career__time">
+                      Nov 2020 - Present · Full-time
+                    </div>
+                    <div class="content-career__categories">
+                      <a href="" class="category-link">Swift</a>
+                      <a href="" class="category-link">Go</a>
+                    </div>
+                  </div>
+                  <div class="content-career__main">
+                    <ul class="content-career__list list-content-career">
+                      <li class="list-content-career__item">
+                        Improving overall website performance for mobile users.
+                      </li>
+                      <li class="list-content-career__item">
+                        Collaborate with back-end developers and web designers
+                        to improve usability
+                      </li>
+                      <li class="list-content-career__item">
+                        Add voice search feature for mobile app.
+                      </li>
+                      <li class="list-content-career__item">
+                        Developing an admin panel to manage contents, users,
+                        products and ...
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
+        <section
+          data-fp-section
+          data-watch="navigator"
+          id="skills"
+          class="page__skills skills"
+        >
+          <div class="skills__container">
+            <div class="skills__title title">
+              <div class="title__label">LEARNING PATH</div>
+              <h2 class="title__value">Education & Skills</h2>
+            </div>
+            <div class="skills__body">
+              <div class="skills__timeline timeline">
+                <!-- <div class="timeline__item">
+                  <div class="timeline__title">Kingston university</div>
+                  <div class="timeline__text">
+                    Master's degree - Software Engineering
+                  </div>
+                  <div class="timeline__date">2019 - 2021</div>
+                </div> -->
+                <div class="timeline__item">
+                  <div class="timeline__title">Front-end</div>
+                  <div class="timeline__text">Web Development Courses</div>
+                  <div class="timeline__date">2022 - 2024</div>
+                </div>
+                <div class="timeline__item">
+                  <div class="timeline__title">
+                    Kyiv National Economic University
+                  </div>
+                  <div class="timeline__text">Cybersecurity</div>
+                  <div class="timeline__date">2022 - 2026</div>
+                </div>
+              </div>
+              <div class="skills__content content-skills">
+                <div class="content-skills__text text">
+                  <p>
+                    During my year of study and practice, I studied possible
+                    technologies, and here you can see a summary of my skills.
+                  </p>
+                </div>
+                <div class="content-skills__items">
+                  <div class="content-skills__item">
+                    <div class="content-skills__label">HTML & CSS</div>
+                    <div class="content-skills__line">
+                      <span style="width: 67.5%"></span>
+                    </div>
+                  </div>
+                  <div class="content-skills__item">
+                    <div class="content-skills__label">Adaptive layout</div>
+                    <div class="content-skills__line">
+                      <span style="width: 50%"></span>
+                    </div>
+                  </div>
+                  <div class="content-skills__item">
+                    <div class="content-skills__label">Javascript</div>
+                    <div class="content-skills__line">
+                      <span style="width: 50%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section data-fp-section class="page__contacts contacts">
+          <div class="contacts__container">
+            <div class="contacts__content">
+              <form action="#" class="contacts__form form">
+                <div class="form__item">
+                  <input
+                    autocomplete="off"
+                    type="text"
+                    name="form[]"
+                    data-error="Error"
+                    data-required
+                    placeholder="Name"
+                    class="form__input"
+                  />
+                </div>
+                <div class="form__item">
+                  <input
+                    autocomplete="off"
+                    type="text"
+                    name="form[]"
+                    data-error="Error"
+                    data-required="email"
+                    placeholder="Email"
+                    class="form__input"
+                  />
+                </div>
+                <div class="form__item">
+                  <textarea
+                    autocomplete="off"
+                    name="form[]"
+                    placeholder="Message"
+                    data-error="Error"
+                    class="form__input"
+                  ></textarea>
+                </div>
+                <div class="form__item">
+                  <button type="submit" class="form__button">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+              <div class="contacts__body">
+                <ul class="contacts__list list-contacts">
+                  <li class="list-contacts__item">
+                    <div class="list-contacts__icon">
+                      <img src="img/contacts/01.svg" alt="" />
+                    </div>
+                    <div class="list-contacts__body">
+                      <div class="list-contacts__title">Telegram</div>
+                      <a href="https://t.me/Buuurry" class="list-contacts__text"
+                        >@Buuurry</a
+                      >
+                    </div>
+                  </li>
+
+                  <li class="list-contacts__item">
+                    <div class="list-contacts__icon">
+                      <img src="img/contacts/02.svg" alt="" />
+                    </div>
+                    <div class="list-contacts__body">
+                      <div class="list-contacts__title">Phone</div>
+                      <a href="tel:0664988240" class="list-contacts__text"
+                        >+380 66 498 82 40</a
+                      >
+                    </div>
+                  </li>
+                  <li class="list-contacts__item">
+                    <div class="list-contacts__icon">
+                      <img src="img/contacts/03.svg" alt="" />
+                    </div>
+                    <div class="list-contacts__body">
+                      <div class="list-contacts__title">E-Mail</div>
+                      <a
+                        href="mailto:illia.dubrovin5@gmail.com"
+                        class="list-contacts__text"
+                        >illia.dubrovin5@gmail.com</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="footer__container">
+              <ul class="footer__social social">
+                <li class="social__item">
+                  <a
+                    href="https://www.instagram.com/_illia.dubrovin_36_/"
+                    class="social__link _icon-s-instagram"
+                  ></a>
+                </li>
+                <li class="social__item">
+                  <a
+                    href="https://github.com/illiaDubr"
+                    class="social__link _icon-s-git"
+                  ></a>
+                </li>
+
+                <li class="social__item">
+                  <a
+                    href="https://www.linkedin.com/in/илья-дубровин-a9492b239/"
+                    class="social__link _icon-s-lincedin"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </section>
+      </main>
+      <!-- <div data-fp-section class="page__bottom bottom-page">
+  <footer class="footer">
+    <div class="footer__container">
+      <ul class="footer__social social">
+        <li class="social__item">
+          <a href="" class="social__link _icon-s-instagram"></a>
+        </li>
+        <li class="social__item">
+          <a href="" class="social__link _icon-s-git"></a>
+        </li>
+
+        <li class="social__item">
+          <a href="" class="social__link _icon-s-lincedin"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div> -->
+    </div>
+    <script src="js/app.min.js?_v=20240121215332"></script>
+  </body>
+</html>
